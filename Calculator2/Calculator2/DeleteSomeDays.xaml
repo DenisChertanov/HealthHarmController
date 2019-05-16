@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.DeleteSomeDays"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <StackLayout BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="CenterAndExpand"
+                 Margin="13"
+                 Padding="24"
+                 Spacing="24">
+        
+        <StackLayout Orientation="Horizontal" Spacing="5" VerticalOptions="FillAndExpand">
+            <Label Text="Очистить за " VerticalOptions="Center" HorizontalOptions="Start"/>
+            <Picker x:Name="picker" VerticalOptions="Center" HorizontalOptions="FillAndExpand" SelectedIndexChanged="picker_SelectedIndexChanged"/>
+        </StackLayout>
+        <StackLayout x:Name="stackLayout1" Orientation="Horizontal">
+        </StackLayout>
+        <StackLayout x:Name="stackLayout2" Orientation="Horizontal">
+        </StackLayout>
+        <StackLayout Orientation="Horizontal" Spacing="5">
+            <Button x:Name="Away" Text="Отмена" Clicked="Away_Click" HorizontalOptions="FillAndExpand"/>
+            <Button x:Name="Delete" Text="Удалить" Clicked="Delete_Click" HorizontalOptions="FillAndExpand"/>
+        </StackLayout>
+        
+    </StackLayout>
+    
+</pages:PopupPage>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.General">
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="BackgroundColor" Value="#ff5916" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+                <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+            </Style>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout x:Name = "stackLayout" Padding="8,8,8,8" BackgroundColor="#2e2f32">
+            <Frame BackgroundColor="#424242">
+                <StackLayout>
+                    <Label x:Name ="LabelSigaretsToday" Style="{StaticResource LabelStyle}"/>
+                    <Label x:Name="BrandSigaret" Text="Выбранный бренд: ?" Style="{StaticResource LabelStyle}"/>
+                    <Button x:Name ="Button1" Clicked="OnButtonClicked1" HeightRequest="49" WidthRequest="52" Image="Sigarete.png" Style="{StaticResource buttonStyle}"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout>
+                    <Label x:Name ="LabelFromLastSigaret" Style="{StaticResource LabelStyle}"/>
+                    <Label x:Name="LabelAverageSpan" Text="Среднее время между сигаретами: ?" Style="{StaticResource LabelStyle}"/>
+                    <Label x:Name="LabelMaxTime" Text="Максимальный промежуток воздержания: ?" Style="{StaticResource LabelStyle}"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout>
+                    <Label x:Name="SpentAll" Text="Потрачено на сигареты: ?" Style="{StaticResource LabelStyle}"/>
+                    <Label x:Name="SpentToday" Text="Потрачено на сигареты сегодня: ?" Style="{StaticResource LabelStyle}"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout>
+                    <Label x:Name ="LabelSigaretsAll" Style="{StaticResource LabelStyle}"/>
+                    <Label x:Name="LabelFirstSigaret" Style="{StaticResource LabelStyle}"/>
+                    <Label x:Name="LabelFromFirstSigaret" Style="{StaticResource LabelStyle}"/>
+                    <Label x:Name="LabelCntEndSmoking" Text="Попытка бросить курить: ?" Style="{StaticResource LabelStyle}"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

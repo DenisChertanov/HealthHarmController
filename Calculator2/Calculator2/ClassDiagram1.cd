@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Calculator2.AddNewSigaret">
+    <Position X="3" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAACAAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddNewSigaret.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.AddSigaretsLibrary">
+    <Position X="11.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AddSigaretsLibrary.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.Analitics">
+    <Position X="2.75" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>gCABABAAAIAkAABAAAAEAAAAAAAiAAAEAAAAEAAgEAA=</HashCode>
+      <FileName>Analitics.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.App">
+    <Position X="5.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAgAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.ChooseSigaretsBrand">
+    <Position X="0.5" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAAAAAIAAAgCAggAEMCQAAAIAAAYAFAgE=</HashCode>
+      <FileName>ChooseSigaretsBrand.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.Day">
+    <Position X="8.25" Y="8.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAAAggIAAAAAhgggABABAAABAQACAAAAAEA=</HashCode>
+      <FileName>Day.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.DeleteSomeDays">
+    <Position X="5.5" Y="11.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAABAAAAAAAAAAAAAQQAAAAAAAAAAAAA=</HashCode>
+      <FileName>DeleteSomeDays.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.EndSmoking">
+    <Position X="8.5" Y="0.5" Width="2" />
+    <AssociationLine Name="DateLast" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.467" Y="-0.089" Height="0.182" Width="0.854" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DateNow" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.304" Y="-0.098" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="FirstSigaret" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.295" Y="-0.098" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LastSigarete" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-2.134" Y="1.019" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LastSigareteYesterday" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.726" Y="1.643" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAgAAgAAEAEAgCggAACAAAAEAAAAIEAAAAA=</HashCode>
+      <FileName>EndSmoking.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DateLast" />
+      <Field Name="DateNow" />
+      <Field Name="FirstSigaret" />
+      <Field Name="LastSigarete" />
+      <Field Name="LastSigareteYesterday" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Calculator2.ExceptionPage">
+    <Position X="11.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExceptionPage.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.General">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <AssociationLine Name="LastSigareteYesterday" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.182" Y="-0.085" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LastSigarete" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.309" Y="-0.103" Height="0.182" Width="0.962" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="FirstSigaret" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="1.132" Y="0.277" Height="0.182" Width="0.941" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DateNow" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.494" Y="-0.469" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="DateLast" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="1.336" Y="-0.098" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAyAAgAggAAEAEEgKggAAAAAAAEAIAKYEAQAAA=</HashCode>
+      <FileName>General.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="LastSigareteYesterday" />
+      <Field Name="LastSigarete" />
+      <Field Name="FirstSigaret" />
+      <Field Name="DateNow" />
+      <Field Name="DateLast" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Calculator2.Memory">
+    <Position X="0.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Memory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.MyDate">
+    <Position X="4.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAJAEAAAAEAAAAAAIAAAAAACIEAQAAAAAEAAA=</HashCode>
+      <FileName>MyDate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.PlanOnDay">
+    <Position X="11.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PlanOnDay.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.Plans">
+    <Position X="0.5" Y="13.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIgAAAAAAA=</HashCode>
+      <FileName>Plans.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.Sigarets">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sigarets.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.SigaretsBrands">
+    <Position X="11.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAAAAAAADQAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SigaretsBrands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.TopBrands">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAQAAAAAAAAIAIAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>TopBrands.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.ViewSomeDay">
+    <Position X="9" Y="4.25" Width="2" />
+    <AssociationLine Name="DateNow" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.259" Y="-0.098" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="FirstSigaret" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.892" Y="-0.098" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LastSigarete" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.223" Y="-0.071" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="LastSigareteYesterday" Type="Calculator2.MyDate">
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="0.205" Y="-0.116" Height="0.182" Width="1.523" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAggAAEEEAgCAgAAACAAAEBAACIEAAAAA=</HashCode>
+      <FileName>ViewSomeDay.xaml.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="DateNow" />
+      <Field Name="FirstSigaret" />
+      <Field Name="LastSigarete" />
+      <Field Name="LastSigareteYesterday" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Calculator2.WatchMinuses">
+    <Position X="8.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WatchMinuses.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Calculator2.WatchPluses">
+    <Position X="11.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>WatchPluses.xaml.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

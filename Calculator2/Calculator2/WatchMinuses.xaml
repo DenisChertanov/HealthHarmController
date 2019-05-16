@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.WatchMinuses">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="BackgroundColor" Value="#B00020" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="8,8,8,8" BackgroundColor="#2e2f32">
+            
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Mouth.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение оказывает угнетающее действие на слизистую оболочку." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Sun.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение вызывает утренний кашель." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Teeth.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение ухудшает цвет зубов." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Sad.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение ухудшает цвет кожи." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Pills.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Из-за курения забиваются капиляры." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Brain.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение вызывает ухудшение памяти и работия головного мозга." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Glases.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение ухудшает зрение." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Bone.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Из-за курения разрушаются костные ткани и ногти." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Lungs.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение вызывает усыхание легких." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Heart.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Из-за курения ухудшается работа сердца." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Question.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Из-за курения разрушается устоявшаяся психологическая модель, характер становится жестче." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Sosiety.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Курение вызывает неодобрение со стороны окружающих." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Dog.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Дым от сигарет вредит домашним питомцам." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="20">
+                    <Image Source="Child.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="При долгом курении у мужчин развивается импотенция, а у женщин - бесплодие." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

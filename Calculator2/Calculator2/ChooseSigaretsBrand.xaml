@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.ChooseSigaretsBrand"
+             Title="Выбор марки сигарет">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="BackgroundColor" Value="#B00020" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="FontSize" Value="Medium" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout x:Name = "stackLayout" Padding="8,8,8,8" BackgroundColor="#FF2D2D30">
+            <Frame BackgroundColor="#424242">
+                <StackLayout>
+                    <Entry x:Name="entry" Placeholder="Название сигарет" TextColor="#FFC4C4C4" TextChanged="GetTextChanged"/>
+                    <Label x:Name="Brand" Text="Выбранный бренд: ?" Style="{StaticResource LabelStyle}"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

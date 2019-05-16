@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.Sigarets">
+
+    <MasterDetailPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#fdf4f8" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+                <Setter Property="HorizontalOptions" Value="StartAndExpand" />
+                <Setter Property="BackgroundColor" Value="#C62828" />
+            </Style>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </MasterDetailPage.Resources>
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master" BackgroundColor="#B00020">
+            <ContentPage.Content>
+                <StackLayout Padding="5,30,5,5">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image WidthRequest="65" HeightRequest="65" Aspect="AspectFit" Source="Smoke.png" VerticalOptions="Center"/>
+                        <Label Text="Health Harm Controller" VerticalOptions="Center" />
+                        <Label Text="   "/>
+                        <Label Text=""/>
+                        <Label Text=""/>
+                    </StackLayout>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="Основное                                      " Clicked="ButtonClick1" Image="Home2.png"  Style="{StaticResource buttonStyle}"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="Сброс данных                                      " Clicked="ButtonClick2" Image="Brush2.png" Style="{StaticResource buttonStyle}"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="Я бросил курить!                                      " Clicked="ButtonClick3" Image="Done.png" Style="{StaticResource buttonStyle}"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="Статистика                                      " Clicked="ButtonClick4" Image="Graph.png" Style="{StaticResource buttonStyle}"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="Просмотр данных                                      " Clicked="ButtonClick5" Image="Watch.png" Style="{StaticResource buttonStyle}" />
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="План на день                                      " Clicked="ButtonClick8" Image="Plan.png" Style="{StaticResource buttonStyle}"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="Минусы курения                                      " Clicked="ButtonClick6" Image="Minus.png" Style="{StaticResource buttonStyle}"/>
+                        </StackLayout>
+                    </Frame>
+
+                    <Frame BackgroundColor="#C62828" Padding="0,0,0,0">
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Padding="0,0,0,0">
+                            <Button Text="Польза отказа                                       " Clicked="ButtonClick7" Image="Plus.png" Style="{StaticResource buttonStyle}"/>
+                        </StackLayout>
+                    </Frame>
+
+                </StackLayout> 
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+    <MasterDetailPage.Detail>
+        <ContentPage>
+            <ContentPage.Content>
+                <Label Text="TMP"/>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

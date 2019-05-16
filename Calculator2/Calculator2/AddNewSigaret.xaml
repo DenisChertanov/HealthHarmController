@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<pages:PopupPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.AddNewSigaret"
+             xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup">
+
+    <StackLayout BackgroundColor="White"
+                 HorizontalOptions="FillAndExpand"
+                 VerticalOptions="Center"                 
+                 Margin="13"
+                 Padding="24"
+                 x:Name="stackLayout1">
+        
+        <StackLayout>
+            <Label Text="Название:"/>
+            <Entry x:Name="Name" MaxLength="20"/>
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Сигарет в пачке:"/>
+            <Entry x:Name="Cnt" MaxLength="2"/>
+        </StackLayout>
+        <StackLayout>
+            <Label Text="Цена пачки:"/>
+            <Entry x:Name="Cost" MaxLength="4"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Button BackgroundColor="DodgerBlue"
+                Text="Отмена"
+                TextColor="White"
+                Clicked="OutClicked"
+                HorizontalOptions="EndAndExpand"/>
+            <Button BackgroundColor="DodgerBlue"
+                Text="Добавить"
+                TextColor="White" 
+                Clicked="AddClick" 
+                HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+
+    </StackLayout>
+
+</pages:PopupPage>

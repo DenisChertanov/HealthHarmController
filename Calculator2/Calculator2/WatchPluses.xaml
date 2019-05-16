@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.WatchPluses">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="BackgroundColor" Value="#B00020" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ScrollView>
+        <StackLayout Padding="8,8,8,8" BackgroundColor="#2e2f32">
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Heart.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="После 20 минут: 
+                           Артериальное давление и частота сердечных сокращений понижаются." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Blood.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 8 часов: 
+                           Уровень окиси углерода в крови возвращается к норме." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="HeartAtack.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 24 часа: 
+                           Шанс сердечного приступа уменьшается." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Dishes.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="После 48 часов: 
+                           Ваша способность вкуса и запаха начинает возвращаться к норме." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Relax.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 72 часа: 
+                           Ваши дыхательные пути начинают расслабляться." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Smoke.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 5-8 дней: 
+                           Среднее количество сильных желаний покурить - уменьшается до 3 в день." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Teeth.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 10-14 дней: 
+                           Кровообращение в деснах и зубах придет в норму. К-во желаний покурить снижается до 2 в день (в среднем)." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Lungs.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 2-12 недель: 
+                           Улучшается кровообращение и усиливается функция легких." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Joy.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 3-4 недели: 
+                           Прекратятся гнев, беспокойство и депрессия, вызванные отказом от курения." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Weight.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 2 месяца: 
+                           Резистентность к инсулину нормализовалась, несмотря на среднюю прибавку в весе 2.7кг." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Decrease.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 1-9 месяцев: 
+                           Кашель и одышка уменьшаются." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Deth.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="После 1-5 лет: 
+                           Ваш риск смерти от сердечнососудистых заболеваний составляет около половины от того что у курильщика." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+            <Frame BackgroundColor="#424242">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Image Source="Death2.png" VerticalOptions="CenterAndExpand"/>
+                    <Label Text="Через 10 лет: 
+                           Риск рака легких снижается в два раза." TextColor="#FFC4C4C4"
+                           FontSize="Small" VerticalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

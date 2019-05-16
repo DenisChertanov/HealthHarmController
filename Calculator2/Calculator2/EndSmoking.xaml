@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculator2.EndSmoking">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="BackgroundColor" Value="#B00020" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="BorderWidth" Value="1" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="VerticalOptions" Value="Center" />
+            </Style>
+            <Style x:Key="LabelStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFC4C4C4" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                <Setter Property="VerticalOptions" Value="FillAndExpand" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    
+    <ScrollView>
+        <StackLayout x:Name = "stackLayout" Padding="12,12,12,12" BackgroundColor="#FF2D2D30">
+            <Button x:Name="Button1" Text="Больше не курю!" Clicked="Button_Clicked1" Style="{StaticResource buttonStyle}"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
